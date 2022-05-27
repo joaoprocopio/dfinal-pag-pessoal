@@ -4,41 +4,23 @@
 :root {
   --font-sans: "Roboto", sans-serif;
   --font-monospace: "Roboto Mono", monospace;
-  --black: #121212;
-  --dark-gray: #565656;
-  --medium-gray: #898989;
-  --light-gray: #cfcfcf;
+  --black: #111111;
+  --dark-gray: #666666;
+  --medium-gray: #999999;
+  --light-gray: #cccccc;
   --white: #ffffff;
-  --green: #122c1f;
+  --blue: #072559;
+  --card-height: 500px;
+  --card-width: 500px;
 }
 
 * {
   font-family: var(--font-sans);
   font-size: 16px;
   font-weight: 400;
+  color: var(--black);
 }
 
 span {
   font-weight: 700;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#content {
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-.content-wrapper {
-  width: 300px;
-  color: var(--light-gray);
-  background-color: var(--green);
 }
