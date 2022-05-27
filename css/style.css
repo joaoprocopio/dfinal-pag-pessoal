@@ -1,26 +1,78 @@
 @import "./reset.css";
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700;900&display=swap");
 
 :root {
   --font-sans: "Roboto", sans-serif;
   --font-monospace: "Roboto Mono", monospace;
-  --black: #111111;
-  --dark-gray: #666666;
-  --medium-gray: #999999;
-  --light-gray: #cccccc;
-  --white: #ffffff;
-  --blue: #072559;
-  --card-height: 500px;
-  --card-width: 500px;
+  --color-white: #ffffff;
+  --color-navigation-bg: #161b22;
+  --color-navigation-default: #f0f6fc;
+  --color-navigation-muted: #ffffffb3;
+  --color-content-bg: #0d1117;
+  --color-content-default: #c9d1d9;
+  --color-content-muted: #8b949e;
+  --color-blue: #58a6ff;
+  --color-azure: #3572a5;
+  --color-green: #238636;
+  --color-purple: #563d7c;
+  --color-red: #e34c26;
+  --color-orange: #e38c00;
+  --color-yellow: #f1e05a;
 }
 
 * {
   font-family: var(--font-sans);
   font-size: 16px;
   font-weight: 400;
-  color: var(--black);
+  text-decoration: none;
 }
 
-span {
+.top-navigation {
+  height: 62px;
+  background-color: var(--color-navigation-bg);
+  color: var(--color-navigation-default);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.links-wrapper-left {
+  display: flex;
+  align-items: center;
+}
+
+.links-wrapper-right {
+  display: flex;
+  align-items: center;
+}
+
+.links-container {
+  margin-left: 16px;
+  margin-right: 16px;
+  color: var(--color-navigation-default);
+}
+
+.links-text {
   font-weight: 700;
+}
+
+.links-text:hover {
+  color: var(--color-navigation-muted);
+}
+
+.logo-wrapper {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.logo:hover {
+  color: var(--color-navigation-muted);
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--color-navigation-default);
 }
