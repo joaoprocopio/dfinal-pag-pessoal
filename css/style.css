@@ -1,11 +1,18 @@
 :root {
-    --font-monospace: monospace;
-    --font-sans: sans-serif;
-    --font-serif: serif;
+    --font-monospace: "Roboto Mono", monospace;
+    --font-sans: "Roboto", sans-serif;
+    --font-serif: "Roboto Serif", serif;
     --color-black: #121212;
-    --color-lightgray: #ebebeb;
     --color-gray: #5a5a5a;
+    --color-lightgray: #ebebeb;
     --color-white: #ffffff;
+    --color-pink: #f11075;
+    --color-blue: #326891;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
 }
 
 * {
