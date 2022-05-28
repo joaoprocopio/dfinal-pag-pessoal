@@ -40,6 +40,14 @@ body {
     font-weight: 400;
 }
 
+ul {
+    list-style-type: "\ - ";
+}
+
+section {
+    padding-top: 64px;
+}
+
 .first-page {
     padding-top: var(--header-height);
     height: calc(100vh - var(--header-height));
@@ -52,13 +60,13 @@ body {
 }
 
 .last-page {
-    height: 33vh;
+    height: 40vh;
     width: 100vw;
 }
 
 .container {
-    padding: 0 24px;
     max-width: 1200px;
+    padding: 0 24px;
     margin: 0 auto;
 }
 
