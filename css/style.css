@@ -1,16 +1,16 @@
 :root {
-    /* fonts */
+    --header-height: 48px;
     --font-sans: "Roboto", sans-serif;
     --font-mono: "Roboto Mono", monospace;
     --font-serif: "Roboto Serif", serif;
     /* header colors */
     --color-navigation-bg: #161b22;
-    --color-navigation-default: #f0f6fc;
-    --color-navigation-muted: #ffffffb3;
+    --color-navigation-main: #f0f6fc;
+    --color-navigation-hover: #ffffffb3;
     /* main page colors */
     --color-content-bg: #0d1117;
-    --color-content-default: #c9d1d9;
-    --color-content-muted: #8b949e;
+    --color-content-main: #c9d1d9;
+    --color-content-hover: #8b949e;
     /* buser */
     --color-pink: #f11075;
     /* link */
@@ -27,6 +27,10 @@
     --color-orange: #e38c00;
     /* javascript */
     --color-yellow: #f1e05a;
+    /* rust */
+    --color-brown: #dea584;
+    /* shell */
+    --color-green: #89e051;
 }
 
 html,
@@ -38,4 +42,31 @@ body {
     font-family: var(--font-sans);
     font-size: 16px;
     font-weight: 400;
+}
+
+.first-page {
+    padding-top: var(--header-height);
+    height: calc(100vh - var(--header-height));
+    width: 100vw;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.last-page {
+    height: 33vh;
+    width: 100vw;
+}
+
+.container {
+    padding: 0 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-navigation {
+    position: fixed;
+    height: var(--header-height);
 }
