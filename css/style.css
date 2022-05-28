@@ -1,8 +1,6 @@
 :root {
     --header-height: 48px;
-    --font-sans: "Roboto", sans-serif;
-    --font-mono: "Roboto Mono", monospace;
-    --font-serif: "Roboto Serif", serif;
+    --font-sans: "Rubik", sans-serif;
     /* header colors */
     --color-navigation-bg: #161b22;
     --color-navigation-main: #f0f6fc;
@@ -37,7 +35,7 @@ body {
 }
 
 * {
-    font-family: var(--font-mono);
+    font-family: var(--font-sans);
     font-size: 16px;
     font-weight: 400;
 }
