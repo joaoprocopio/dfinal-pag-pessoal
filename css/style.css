@@ -1,20 +1,31 @@
 :root {
-    --font-monospace: "Roboto Mono", monospace;
+    /* fonts */
     --font-sans: "Roboto", sans-serif;
+    --font-mono: "Roboto Mono", monospace;
     --font-serif: "Roboto Serif", serif;
+    /* header colors */
     --color-navigation-bg: #161b22;
     --color-navigation-default: #f0f6fc;
     --color-navigation-muted: #ffffffb3;
+    /* main page colors */
     --color-content-bg: #0d1117;
     --color-content-default: #c9d1d9;
     --color-content-muted: #8b949e;
+    /* buser */
     --color-pink: #f11075;
+    /* link */
     --color-blue: #58a6ff;
-    --color-azure: #3572a5;
+    /* button */
     --color-green: #238636;
+    /* python */
+    --color-azure: #3572a5;
+    /* css */
     --color-purple: #563d7c;
+    /* html */
     --color-red: #e34c26;
+    /* sql */
     --color-orange: #e38c00;
+    /* javascript */
     --color-yellow: #f1e05a;
 }
 
