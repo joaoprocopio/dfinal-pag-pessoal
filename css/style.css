@@ -11,17 +11,24 @@
     --color-content-bg: #0d1117;
     --color-content-main: #c9d1d9;
     --color-content-hover: #8b949e;
-    --color-content-blue: #58a6ff;
-    --color-buser-pink: #f11075;
-    --color-python-blue: #3572a5;
-    --color-css-purple: #563d7c;
+    --color-link-blue: #58a6ff;
+    --color-buser-primary: #f11075;
+    --color-buser-secondary: #5c306e;
+    /* decoration colors */
+    --color-shell-green: #89e051;
     --color-html-red: #e34c26;
+    --color-css-purple: #563d7c;
     --color-sql-orange: #e38c00;
+    --color-python-blue: #3572a5;
     --color-js-yellow: #f1e05a;
     --color-rust-brown: #dea584;
-    --color-shell-green: #89e051;
     --color-django-green: #153c2a;
     --color-node-green: #478b43;
+    --color-docker-blue: #2397ed;
+}
+
+head {
+    display: none;
 }
 
 html,
@@ -30,7 +37,7 @@ body {
 }
 
 * {
-    font-family: var(--font-sans);
+    font-family: var(--font-mono);
     font-size: 16px;
     font-weight: 400;
 }
