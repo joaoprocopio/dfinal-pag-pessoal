@@ -11,26 +11,17 @@
     --color-content-bg: #0d1117;
     --color-content-main: #c9d1d9;
     --color-content-hover: #8b949e;
-    /* buser */
-    --color-pink: #f11075;
-    /* link */
-    --color-blue: #58a6ff;
-    /* button */
-    --color-green: #238636;
-    /* python */
-    --color-azure: #3572a5;
-    /* css */
-    --color-purple: #563d7c;
-    /* html */
-    --color-red: #e34c26;
-    /* sql */
-    --color-orange: #e38c00;
-    /* javascript */
-    --color-yellow: #f1e05a;
-    /* rust */
-    --color-brown: #dea584;
-    /* shell */
-    --color-green: #89e051;
+    --color-content-blue: #58a6ff;
+    --color-buser-pink: #f11075;
+    --color-python-blue: #3572a5;
+    --color-css-purple: #563d7c;
+    --color-html-red: #e34c26;
+    --color-sql-orange: #e38c00;
+    --color-js-yellow: #f1e05a;
+    --color-rust-brown: #dea584;
+    --color-shell-green: #89e051;
+    --color-django-green: #153c2a;
+    --color-node-green: #478b43;
 }
 
 html,
