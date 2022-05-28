@@ -2,12 +2,20 @@
     --font-monospace: "Roboto Mono", monospace;
     --font-sans: "Roboto", sans-serif;
     --font-serif: "Roboto Serif", serif;
-    --color-black: #121212;
-    --color-gray: #5a5a5a;
-    --color-lightgray: #ebebeb;
-    --color-white: #ffffff;
+    --color-navigation-bg: #161b22;
+    --color-navigation-default: #f0f6fc;
+    --color-navigation-muted: #ffffffb3;
+    --color-content-bg: #0d1117;
+    --color-content-default: #c9d1d9;
+    --color-content-muted: #8b949e;
     --color-pink: #f11075;
-    --color-blue: #326891;
+    --color-blue: #58a6ff;
+    --color-azure: #3572a5;
+    --color-green: #238636;
+    --color-purple: #563d7c;
+    --color-red: #e34c26;
+    --color-orange: #e38c00;
+    --color-yellow: #f1e05a;
 }
 
 html,
