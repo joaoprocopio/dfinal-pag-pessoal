@@ -44,10 +44,6 @@ ul {
     list-style-type: "\ - ";
 }
 
-section {
-    padding-top: 64px;
-}
-
 .first-page {
     padding-top: var(--header-height);
     height: calc(100vh - var(--header-height));
