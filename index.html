@@ -36,89 +36,100 @@
     <body>
         <nav class="navigation-wrapper">
             <div class="container top-navigation">
-                <a href="./">joão</a>
+                <a href="./">voltar ao início</a>
             </div>
         </nav>
         <header id="apresentacao" class="landing-page container">
-            <h1 class="wrapper-ola">olá!</h1>
-            <h2 class="wrapper-nome">meu nome é joão</h2>
-            <h3 class="wrapper-">
-                sou um estudante de <strong>ciências da computação</strong>
-            </h3>
-            <p>
-                atualmente estagiário do programa
-                <a
-                    class="wrapper-buserlink"
-                    target="_blank"
-                    href="https://blog.buser.com.br/novidades/buser-lanca-programa-capacitacao-profissionais-tecnologia/"
-                    >buser<span>tech</span></a
-                >
-            </p>
+            <div class="apresentacao-wrapper">
+                <h1 class="wrapper-ola">olá!</h1>
+                <h2 class="wrapper-nome">meu nome é <span>joão</span></h2>
+                <h3 class="wrapper-sou">
+                    sou um estudante de <strong>ciências da computação</strong>
+                </h3>
+                <p class="wrapper-atual">
+                    atualmente estagiário do programa
+                    <a
+                        class="wrapper-buserlink"
+                        target="_blank"
+                        href="https://blog.buser.com.br/novidades/buser-lanca-programa-capacitacao-profissionais-tecnologia/"
+                        >buser<span>tech</span></a
+                    >
+                </p>
+            </div>
         </header>
         <main>
-            <section class="page container"></section>
-            <section class="page container">
-                <p>
-                    sou apaixonado por tecnologia, e admiro em como o bom uso da
-                    tecnologia pode impactar positivamente a vida de pessoas.
-                </p>
-                <p>
-                    e nesse caminho dentro do mundo da tecnologia estou sendo
-                    guiado pelos meus professores:
-                </p>
-                <ul>
-                    <li>
-                        <a
-                            target="_blank"
-                            href="https://www.linkedin.com/in/rogercamargo/"
-                            >roger</a
-                        >, que me fez gostar de front-end;
-                    </li>
-                    <li>
-                        <a
-                            target="_blank"
-                            href="https://www.linkedin.com/in/renzonuccitelli"
-                            >renzo</a
-                        >, que tem me inspirado a ler melhores livros e aprender
-                        back-end.
-                    </li>
-                    <li>
-                        <a
-                            target="_blank"
-                            href="https://www.linkedin.com/in/mauro-assis-98578620/"
-                            >mauro</a
-                        >, que me mostrou o maravilhoso mundo dos dados;
-                    </li>
-                </ul>
+            <section id="sobre" class="page container">
+                <div class="sobre-wrapper">
+                    <p>
+                        sou apaixonado por tecnologia, e admiro em como o bom
+                        uso da tecnologia pode impactar positivamente a vida de
+                        pessoas.
+                    </p>
+                    <p>
+                        e nesse caminho dentro do mundo da tecnologia estou
+                        sendo guiado pelos meus professores:
+                    </p>
+                    <ul>
+                        <li>
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/in/rogercamargo/"
+                                >roger</a
+                            >, que me fez gostar de front-end;
+                        </li>
+                        <li>
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/in/renzonuccitelli"
+                                >renzo</a
+                            >, que tem me inspirado a ler melhores livros e
+                            aprender back-end.
+                        </li>
+                        <li>
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/in/mauro-assis-98578620/"
+                                >mauro</a
+                            >, que me mostrou o maravilhoso mundo dos dados;
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section class="page container">
-                <p>
-                    estou aprendendo sobre desenvolvimento de sistemas e posso
-                    não ter o talento natural
-                </p>
-                <h1>tecnologias que estou aprendendo:</h1>
-                <ul>
-                    <li>shell</li>
-                    <li>html</li>
-                    <li>css</li>
-                    <li>sql</li>
-                    <li>python</li>
-                </ul>
-                <h1>tecnologias que gostaria de aprender:</h1>
-                <ul>
-                    <li>javascript</li>
-                    <li>rust</li>
-                    <li>node.js</li>
-                    <li>docker</li>
-                    <li>django</li>
-                </ul>
+            <section id="aprendendo" class="page container">
+                <div class="aprendendo-wrapper">
+                    <p>estou aprendendo sobre desenvolvimento de sistemas,</p>
+                    <h1>tecnologias que estou aprendendo:</h1>
+                    <ul>
+                        <li style="color: var(--color-shell-green)">shell</li>
+                        <li style="color: var(--color-html-red)">html</li>
+                        <li style="color: var(--color-css-purple)">css</li>
+                        <li style="color: var(--color-sql-orange)">sql</li>
+                        <li style="color: var(--color-python-blue)">python</li>
+                    </ul>
+                    <h1>tecnologias que gostaria de aprender:</h1>
+                    <ul>
+                        <li style="color: var(--color-docker-blue)">docker</li>
+                        <li style="color: var(--color-django-green)">django</li>
+                        <li style="color: var(--color-js-yellow)">
+                            javascript
+                        </li>
+                        <li style="color: var(--color-rust-brown)">rust</li>
+                        <li style="color: var(--color-node-green)">node.js</li>
+                    </ul>
+                </div>
             </section>
         </main>
-        <footer class="last-page container">
-            <a target="_blank" href="https://github.com/joaoprocopio">github</a>
-            <a target="_blank" href="https://www.linkedin.com/in/joao-procopio/"
-                >linkedin</a
-            >
+        <footer id="links" class="last-page container">
+            <div class="links-wrapper">
+                <a target="_blank" href="https://github.com/joaoprocopio"
+                    >github</a
+                >
+                <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/joao-procopio/"
+                    >linkedin</a
+                >
+            </div>
         </footer>
     </body>
 </html>

@@ -56,6 +56,10 @@ a {
     text-decoration: none;
 }
 
+li::marker {
+    color: var(--color-content-main);
+}
+
 .landing-page {
     padding-top: var(--header-height);
     height: 100vh;
@@ -112,6 +116,30 @@ a {
 .apresentacao-wrapper {
     display: flex;
     flex-direction: column;
+}
+
+.wrapper-ola {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.wrapper-ola:hover {
+    color: var(--color-content-hover);
+}
+
+.wrapper-nome {
+    font-size: 1.25rem;
+}
+
+.wrapper-nome > span {
+    font-size: inherit;
+    font-weight: 700;
+}
+
+.wrapper-sou > strong {
+    font-size: inherit;
+    font-weight: 700;
 }
 
 .wrapper-buserlink {
